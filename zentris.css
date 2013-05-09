@@ -1,0 +1,76 @@
+#zentris {
+    overflow: hidden;
+}
+
+.zentris {
+    width: 200px;
+    height: 165.5px;
+    margin: 15px;
+    border: black solid thin;
+    position: relative;
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+    background-color: #eee;
+    float: left;
+    position: absolute;
+    /* border-radius: 5px; */
+}
+
+.scoreboard {
+    float: right;
+}
+
+.activeBlock {
+    //background-color: red;
+}
+
+.setBlock {
+    //background-color: green;
+}
+
+.eraseBlock {
+    ;
+}
+
+.playerBlock {
+    //background-color: blue;
+}
+
+.yellow {
+    //background-color: yellow;
+}
+
+.hidden {
+    display: none;
+}
+
+.playerBlock.square, .setBlock.square {
+    background-color: black;
+}
+
+.playerBlock.T, .setBlock.T {
+    background-color: cyan;
+}
+
+.playerBlock.zl, .setBlock.zl {
+    background-color: green;
+}
+
+.playerBlock.zr, .setBlock.zr {
+    background-color: red;
+}
+
+.playerBlock.long, .setBlock.long {
+    background-color: yellow;
+}
+
+.playerBlock.wr, .setBlock.wr {
+    background-color: pink;
+}
+
+.playerBlock.wl, .setBlock.wl {
+    background-color: #0c0;
+}
